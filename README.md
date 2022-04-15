@@ -1,11 +1,14 @@
-# Auto setup for TeamRedMiner and OpenCL ROCr drivers on Ubuntu 20.04
+# Auto setup for TeamRedMiner and OpenCL ROCr drivers tested on Ubuntu 20.04
 
-edit USERNAME and PASS inside settings folder amdeth.sh
+Setup is using nicehash, can add in preferred pool
+Edit inside settings/amdeth.sh
 
 # Verify miner working
 
 ```
-screen -r
+# list screen
 screen -ls
+# return to running screen
+screen -r
 ```
 # Detach from screen by pressing ctrl+a then ctrl+d
