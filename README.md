@@ -1,10 +1,10 @@
 # Auto setup for TeamRedMiner and OpenCL ROCr drivers tested on Ubuntu 20.04
 
-This script automates the setup process for TeamRedMiner and OpenCL ROCr drivers on Ubuntu 20.04. The miner is configured to work with NiceHash by default, but you can easily change the pool settings.
+This script automates the setup process for TeamRedMiner and OpenCL ROCr drivers on Debian. The miner is configured to work with NiceHash by default, but you can easily change the pool settings.
 
 ## Prerequisites
 
-- Ubuntu 20.04
+- Debian based distro
 - AMD GPU(s) compatible with TeamRedMiner
 
 ## Download TeamRedMiner
@@ -17,7 +17,7 @@ Place the downloaded `teamredminer-*.tgz` file in the same directory as the setu
 
 ## Configure the miner
 
-Edit the `settings/amdeth.sh` file to configure the miner with your preferred pool and worker settings.
+Edit the `settings/settings.sh` file to configure the miner with your preferred pool and worker settings.
 
 ## Running the script
 
